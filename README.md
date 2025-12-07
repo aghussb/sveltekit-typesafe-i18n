@@ -2,6 +2,8 @@
 
 A minimal setup demonstrating how to use **typesafe-i18n** for fully type-safe internationalization in **Svelte 5 + SvelteKit**, including locale loading, strongly typed translations, and seamless integration with the new runes-based Svelte API.
 
+demo : [sveltekit-typesafe-i18n.pages.dev](https://sveltekit-typesafe-i18n.pages.dev)
+
 ## Install typesafe-i18n
 
 ```sh
