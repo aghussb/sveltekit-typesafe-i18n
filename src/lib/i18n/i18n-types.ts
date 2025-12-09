@@ -26,6 +26,10 @@ type RootTranslation = {
 	 * @param {string} name
 	 */
 	RIP: RequiredParams<'name'>
+	/**
+	 * t​e​n​t​a​n​g
+	 */
+	about: string
 }
 
 export type TranslationFunctions = {
@@ -37,6 +41,10 @@ export type TranslationFunctions = {
 	 * Semoga {name} beristirahat dengan tenang.
 	 */
 	RIP: (arg: { name: string }) => LocalizedString
+	/**
+	 * tentang
+	 */
+	about: () => LocalizedString
 }
 
 export type Formatters = {}

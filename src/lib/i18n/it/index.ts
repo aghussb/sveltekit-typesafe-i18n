@@ -4,6 +4,7 @@ const it = {
    // TODO: your translations go here
    HI: 'Ciao {name}! Per favore, lascia una stella se ti piace questo progetto: ',
    RIP: 'Che {name} riposi in pace.',
+   about: 'riguardo a'
 } satisfies Translation
 
 export default it
