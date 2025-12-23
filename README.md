@@ -26,9 +26,10 @@ Open file `.typesafe-i18n.json` and add this line
 
 That line will automatically call `$lib` in Sveltekit.
 
-Check code file [+page.svelte](https://github.com/aghussb/sveltekit-typesafe-i18n/blob/main/src/routes/+page.svelte) and [+page.ts](https://github.com/aghussb/sveltekit-typesafe-i18n/blob/main/src/routes/+page.ts) [^1]
+Check code file [+layout.ts](https://github.com/aghussb/sveltekit-typesafe-i18n/blob/main/src/routes/[lang]/+layout.ts) [^1] and [hooks.server.ts](https://github.com/aghussb/sveltekit-typesafe-i18n/blob/main/src/hooks.server.ts) [^2].
 
 [^1]: Reference implementation: [typesafe-i18n-demo-svelte](https://github.com/ivanhofer/typesafe-i18n-demo-svelte)
+[^2]: Reference implementation: [hooks.server.ts](https://github.com/sveltejs/kit/discussions/12376#discussioncomment-9876501)
 
 ## Developing
 
